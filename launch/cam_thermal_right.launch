@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="namespace" default="flir_boson"/>
-  <arg name="frame_id" default="boson_camera"/>
+  <arg name="namespace" default="cam_thermal_right"/>
+  <arg name="frame_id" default="cam_thermal_right"/>
 
   <!-- the linux file descriptor location for the camera -->
-  <arg name="dev" default="/dev/video0"/>
+  <arg name="dev" default="/dev/video2"/>
 
   <!-- valid values are 30.0 or 60.0 for Bosons -->
   <arg name="frame_rate" default="60.0"/>

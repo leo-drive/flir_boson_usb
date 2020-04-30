@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find flir_boson_usb)/launch/cam_thermal_left.launch"/>
+  <include file="$(find flir_boson_usb)/launch/cam_thermal_right.launch"/>
+</launch>
